@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-16T21:39:26 IST" name="Suite" finished-at="2024-11-16T21:39:34 IST" duration-ms="8731">
+    <groups>
+    </groups>
+    <test started-at="2024-11-16T21:39:26 IST" name="Test" finished-at="2024-11-16T21:39:34 IST" duration-ms="8731">
+      <class name="com.DEMOQA.Testlayer.Textbox">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.DEMOQA.Testlayer.Textbox@799f10e1]" started-at="2024-11-16T21:39:26 IST" name="setup" finished-at="2024-11-16T21:39:26 IST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="start()[pri:0, instance:com.DEMOQA.Testlayer.Textbox@799f10e1]" started-at="2024-11-16T21:39:26 IST" name="start" finished-at="2024-11-16T21:39:32 IST" duration-ms="6523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method signature="verifytextboxtest()[pri:0, instance:com.DEMOQA.Testlayer.Textbox@799f10e1]" started-at="2024-11-16T21:39:32 IST" name="verifytextboxtest" finished-at="2024-11-16T21:39:34 IST" duration-ms="1867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytextboxtest -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.DEMOQA.Testlayer.Textbox@799f10e1]" started-at="2024-11-16T21:39:34 IST" name="end" finished-at="2024-11-16T21:39:34 IST" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:com.DEMOQA.Testlayer.Textbox@799f10e1]" started-at="2024-11-16T21:39:34 IST" name="stop" finished-at="2024-11-16T21:39:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.DEMOQA.Testlayer.Textbox -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
