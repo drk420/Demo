@@ -58,4 +58,16 @@ public class Textbox extends TestBase{
 		elements.clickonradiobutton();
 		elements.clickonyesradiobutton();
 }
+   @Test
+   public void verifybuttons() {
+	   Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		elements.clickonbuttob();
+		
+		elements.clickonclickme();
+		
+   }
 }

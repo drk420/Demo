@@ -46,6 +46,12 @@ public class Elements extends TestBase  {
 	@FindBy(xpath="//label[contains(text(),'Yes')]")
 	private WebElement yes_radiobutton;
 	
+	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]")
+	private WebElement button;
+	
+	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/button[1]")
+	private WebElement clickme_button;
+	
 	public void clickontextbox() {
 		Explicitewait.waity(textbox);
 		textbox.click();
@@ -93,7 +99,12 @@ public class Elements extends TestBase  {
 		yes_radiobutton.click();
 	}
 	
+	public void clickonbuttob() {
+		button.click();
+	}
 	
-	
+	public void clickonclickme() {
+		clickme_button.click();
+	}
 }
 
