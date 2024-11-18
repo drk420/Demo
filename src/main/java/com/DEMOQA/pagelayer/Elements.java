@@ -34,6 +34,12 @@ public class Elements extends TestBase  {
 	@FindBy(xpath="//button[@id='submit']")
 	private WebElement submit_button;
 	
+	@FindBy(xpath="//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]")
+	private WebElement checkbox;
+	
+	@FindBy(xpath="//body/div[@id='app']/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/ol[1]/li[1]/span[1]/label[1]/span[1]/*[1]")
+	private WebElement checkbox_button;
+	
 	
 	public void clickontextbox() {
 		Explicitewait.waity(textbox);
@@ -65,5 +71,14 @@ public class Elements extends TestBase  {
 		Explicitewait.waity(submit_button);
 		submit_button.click();
 	}
+	
+	public void clickoncheckbox() {
+		checkbox.click();
+	}
+	
+	public void clickoncheckboxbutton() {
+		checkbox_button.click();
+	}
+	
 }
 

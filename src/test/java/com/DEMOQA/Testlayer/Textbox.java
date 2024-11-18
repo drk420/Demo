@@ -32,4 +32,39 @@ public class Textbox extends TestBase{
 		elements.clickonsubmitbutton();
 		
 	}
+	
+	@Test
+	public void verifycheckbox() {
+Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		
+		elements.clickoncheckbox();
+		
+		elements.clickoncheckboxbutton();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
