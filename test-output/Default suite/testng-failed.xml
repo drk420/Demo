@@ -5,11 +5,11 @@
     <classes>
       <class name="com.DEMOQA.Testlayer.Textbox">
         <methods>
+          <include name="verifyradiobutton"/>
           <include name="stop"/>
           <include name="setup"/>
-          <include name="start"/>
           <include name="end"/>
-          <include name="verifytextboxtest"/>
+          <include name="start"/>
         </methods>
       </class> <!-- com.DEMOQA.Testlayer.Textbox -->
     </classes>
