@@ -35,7 +35,8 @@ public class Textbox extends TestBase{
 	
 	@Test
 	public void verifycheckbox() {
-Homepage homepage = new Homepage (driver);
+        
+		Homepage homepage = new Homepage (driver);
 		
 		homepage.clickonelements();
 		
@@ -46,25 +47,27 @@ Homepage homepage = new Homepage (driver);
 		elements.clickoncheckboxbutton();
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+
+   @Test
+   public void verifyradiobutton() {
+	   Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		elements.clickonradiobutton();
+		elements.clickonyesradiobutton();
+}
+   @Test
+   public void verifybuttons() {
+	   Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		elements.clickonbuttob();
+		
+		elements.clickonclickme();
+		
+   }
 }
