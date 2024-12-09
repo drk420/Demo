@@ -5,9 +5,13 @@
     <classes>
       <class name="com.DEMOQA.Testlayer.Logintest">
         <methods>
+          <include name="verifyradiobutton"/>
           <include name="stop"/>
           <include name="setup"/>
+<<<<<<< HEAD
           <include name="verifyloginfunctionalityy"/>
+=======
+>>>>>>> e7fc4cfac735f3869940394c04adce7071cb1a11
           <include name="end"/>
           <include name="start"/>
         </methods>

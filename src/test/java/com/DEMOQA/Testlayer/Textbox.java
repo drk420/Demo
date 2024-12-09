@@ -38,6 +38,7 @@ public class Textbox extends TestBase{
 	}
 	
 	@Test
+<<<<<<< HEAD
 	public void verifyform() throws InterruptedException {
 	Homepage homepage = new Homepage (driver);
 	
@@ -83,3 +84,42 @@ public class Textbox extends TestBase{
 	Thread.sleep(9000);
 	elements.clickonsubmitformbutton();
 	}}
+=======
+	public void verifycheckbox() {
+        
+		Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		
+		elements.clickoncheckbox();
+		
+		elements.clickoncheckboxbutton();
+	}
+	
+
+   @Test
+   public void verifyradiobutton() {
+	   Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		elements.clickonradiobutton();
+		elements.clickonyesradiobutton();
+}
+   @Test
+   public void verifybuttons() {
+	   Homepage homepage = new Homepage (driver);
+		
+		homepage.clickonelements();
+		
+		Elements elements = new Elements(driver);
+		elements.clickonbuttob();
+		
+		elements.clickonclickme();
+		
+   }
+}
+>>>>>>> e7fc4cfac735f3869940394c04adce7071cb1a11

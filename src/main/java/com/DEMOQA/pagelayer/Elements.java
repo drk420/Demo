@@ -37,6 +37,7 @@ public class Elements extends TestBase  {
 	@FindBy(xpath="//button[@id='submit']")
 	private WebElement submit_button;
 	
+<<<<<<< HEAD
 	@FindBy(xpath="//body/div[@id='app']/div[1]/div[1]/div[1]/div[2]/div[2]/form[1]/div[10]/div[2]/div[1]/div[1]")
 	private WebElement selectstate_dropdown;
 	
@@ -122,6 +123,23 @@ public class Elements extends TestBase  {
 	private WebElement rightclick_button;
 	
 	
+=======
+	@FindBy(xpath="//body/div[@id='app']/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]")
+	private WebElement checkbox;
+	
+	@FindBy(xpath="//body/div[@id='app']/div[1]/div[1]/div[1]/div[2]/div[2]/div[1]/ol[1]/li[1]/span[1]/label[1]/span[1]/*[1]")
+	private WebElement checkbox_button;
+	
+	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]")
+	private WebElement radiobutton;
+	
+	@FindBy(xpath="//label[contains(text(),'Yes')]")
+	private WebElement yes_radiobutton;
+	
+	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]")
+	private WebElement button;
+	
+>>>>>>> e7fc4cfac735f3869940394c04adce7071cb1a11
 	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[2]/div[3]/button[1]")
 	private WebElement clickme_button;
 	
@@ -157,6 +175,7 @@ public class Elements extends TestBase  {
 		submit_button.click();
 	}
 	
+<<<<<<< HEAD
 	public void clickonselectstatedropdown(String text) {
 		Explicitewait.waity(selectstate_dropdown);
 		
@@ -308,5 +327,30 @@ public class Elements extends TestBase  {
 		h.elementhandle(clickme_button);
 	}
 	
+=======
+	public void clickoncheckbox() {
+		checkbox.click();
+	}
+	
+	public void clickoncheckboxbutton() {
+		checkbox_button.click();
+	}
+	
+	public void clickonradiobutton() {
+		radiobutton.click();
+	}
+	
+	public void clickonyesradiobutton() {
+		yes_radiobutton.click();
+	}
+	
+	public void clickonbuttob() {
+		button.click();
+	}
+	
+	public void clickonclickme() {
+		clickme_button.click();
+	}
+>>>>>>> e7fc4cfac735f3869940394c04adce7071cb1a11
 }
 
