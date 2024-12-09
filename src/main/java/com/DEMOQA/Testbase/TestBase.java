@@ -49,7 +49,7 @@ public class TestBase {
 		 System.out.println("Provide correct browser");
 	 }
 	 
-	 driver.get("https://demoqa.com/");
+	 //driver.get("https://demoqa.com/");
 	 driver.manage().window().maximize();
 	 driver.manage().deleteAllCookies();
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
