@@ -15,18 +15,17 @@ public class Homepage extends TestBase{
 		PageFactory.initElements(driver,this);
 	}
 	
-	@FindBy(xpath="/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]")
-	private WebElement elements;
+	@FindBy(xpath="/html[1]/body[1]/div[2]")
+	private WebElement check_element;
 		
 	
-	
-	
-	
 	public void clickonelements() {
-		MoveUpTo.by();
-		elements.click();
+		MoveUpTo m = new MoveUpTo();
+	    m.by();
+		//MoveUpTo.scrollupto(check_element);
+		check_element.click();
+		
 	}
-	
 	
 	
 	

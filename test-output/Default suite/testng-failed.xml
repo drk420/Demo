@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.DEMOQA.Testlayer.Textbox">
+      <class name="com.DEMOQA.Testlayer.Logintest">
         <methods>
           <include name="stop"/>
           <include name="setup"/>
-          <include name="start"/>
+          <include name="verifyloginfunctionalityy"/>
           <include name="end"/>
-          <include name="verifytextboxtest"/>
+          <include name="start"/>
         </methods>
-      </class> <!-- com.DEMOQA.Testlayer.Textbox -->
+      </class> <!-- com.DEMOQA.Testlayer.Logintest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
